@@ -60,7 +60,7 @@ int years)
             string sValue;
             double loanAmount;
 
-            Console.Write("Please enter the loan amount: ");
+            Console.Write("Enter the loan amount: ");
             sValue = Console.ReadLine();
             while (double.TryParse(sValue, out loanAmount) == false)
             {
